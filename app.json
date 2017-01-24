@@ -1,0 +1,27 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#eee",
+    "navigationBarTitleText": "xFun吃货杂货店",
+    "navigationBarTextStyle":"gray",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "selectedColor": "#666",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "image/shouye.png",
+      "selectedIconPath": "image/shouye.png"
+    },{
+      "pagePath": "pages/logs/logs",
+      "text": "购物车",
+      "iconPath": "image/shop.png",
+      "selectedIconPath": "image/shop.png"
+    }]
+  }
+}
